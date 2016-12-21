@@ -2,43 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b240e5-b89b-4352-b160-34d1f1c7d910" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.7.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-httpclient-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.2.3-jdk15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.27-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/payimage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsonJar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Beans/InsertDoc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/servlet/UploadSetServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pay.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/printmanage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/stu_upload_set.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/stu_upload_message.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/stu_upload_message.html" afterPath="$PROJECT_DIR$/web/stu_upload_message.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/WEB-INF/classes/servlet/uploadServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/WEB-INF/classes/servlet/uploadServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PrintSystem/servlet/uploadServlet.class" afterPath="$PROJECT_DIR$/out/production/PrintSystem/servlet/uploadServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrintSystem.iml" afterPath="$PROJECT_DIR$/PrintSystem.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/preview.jsp" afterPath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/preview.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/stu_upload.html" afterPath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/stu_upload.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/test.html" afterPath="$PROJECT_DIR$/out/artifacts/PrintSystem_war_exploded/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/loginServlet.java" afterPath="$PROJECT_DIR$/src/servlet/loginServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/uploadServlet.java" afterPath="$PROJECT_DIR$/src/servlet/uploadServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/preview.jsp" afterPath="$PROJECT_DIR$/web/preview.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/stu_upload.html" afterPath="$PROJECT_DIR$/web/stu_upload.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/test.html" afterPath="$PROJECT_DIR$/web/test.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -114,8 +85,8 @@
       <file leaf-file-name="InsertDoc.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Beans/InsertDoc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="707">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
               <folding>
                 <marker date="1482329532330" expanded="true" signature="819:857" ph="SELECT * FRO... record" />
               </folding>
@@ -1147,12 +1118,20 @@
       <workItem from="1482313949738" duration="1096000" />
       <workItem from="1482315081254" duration="1550000" />
       <workItem from="1482318505124" duration="9506000" />
-      <workItem from="1482329261533" duration="859000" />
+      <workItem from="1482329261533" duration="1072000" />
     </task>
+    <task id="LOCAL-00001" summary="垃圾ubuntu">
+      <created>1482330444409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1482330444409</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35921000" />
+    <option name="totallyTimeSpent" value="36134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -1241,6 +1220,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="垃圾ubuntu" />
+    <option name="LAST_COMMIT_MESSAGE" value="垃圾ubuntu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1607,8 +1590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Beans/InsertDoc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="707">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
             <marker date="1482329532330" expanded="true" signature="819:857" ph="SELECT * FRO... record" />
           </folding>
