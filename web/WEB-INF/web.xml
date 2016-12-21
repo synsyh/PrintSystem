@@ -35,4 +35,12 @@
         <servlet-name>stu_sysServlet</servlet-name>
         <url-pattern>/stu_sys</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>UploadSetServlet</servlet-name>
+        <servlet-class>servlet.UploadSetServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadSetServlet</servlet-name>
+        <url-pattern>/UploadSet</url-pattern>
+    </servlet-mapping>
 </web-app>

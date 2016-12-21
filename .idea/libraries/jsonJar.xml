@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jsonJar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/下载/jsonJar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/下载/jsonJar" recursive="false" />
+  </library>
+</component>

@@ -66,7 +66,7 @@
 <%
     //服务器端文件
     System.out.println("待设置为数据库中存储的文件路径");
-    String fileName = "/Users/sunning/IdeaProjects/PrintSystem/out/artifacts/PrintSystem_war_exploded/upload/孙宇宁_鸟人电影赏析.docx";
+    String fileName =session.getAttribute("filepath").toString();
     System.out.println("当前暂时使用文件路径："+fileName);
 %>
 <html>

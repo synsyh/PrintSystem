@@ -2,9 +2,7 @@ package servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 import java.io.IOException;
 import java.io.File;
 import java.io.IOException;
@@ -35,10 +33,13 @@ public class uploadServlet extends HttpServlet {
     private static final int MEMORY_THRESHOLD = 1024 * 1024 * 3;  // 3MB
     private static final int MAX_FILE_SIZE = 1024 * 1024 * 40; // 40MB
     private static final int MAX_REQUEST_SIZE = 1024 * 1024 * 50; // 50MB
+    HttpSession session;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        session=request.getSession();
         String[] color= request.getParameterValues("colorRadios");
         String[] size=request.getParameterValues("sizeRadios");
+        String num=request.getParameter("printnum");
         System.out.println("success");
 
         /**
@@ -91,6 +92,7 @@ public class uploadServlet extends HttpServlet {
                     if (!item.isFormField()) {
                         String fileName = new File(item.getName()).getName();
                         String filePath = uploadPath + File.separator + fileName;
+                        session.setAttribute("filepath",filePath);
                         File storeFile = new File(filePath);
                         // 在控制台输出文件的上传路径
                         System.out.println(filePath);
@@ -107,7 +109,7 @@ public class uploadServlet extends HttpServlet {
                     "错误信息: " + ex.getMessage());
         }
         // 跳转到 message.jsp
-        getServletContext().getRequestDispatcher("/stu_upload_message.html").forward(
+        getServletContext().getRequestDispatcher("/stu_upload_set.html").forward(
                 request, response);
     }
 
